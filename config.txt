@@ -1,0 +1,35 @@
+project_directory{
+B:\GMM_2025\v5\bmm-math-modeling-MayorIvan1-patch-1\results\final.vtk;
+}
+
+
+model{
+B:\GMM_2025\pythonProject_1\test11.vtk;
+}
+
+model{
+B:\GMM_2025\pythonProject_1\box1.vtk;
+}
+
+
+cloud{
+    sphere;
+    100;
+    uniform;
+    [-0.5,0.5,0.5];
+    0.15;
+    0.5;
+}
+
+cloud{
+    sphere;
+    100;
+    uniform;
+    [-0.5,0.5,1.5];
+    0.2;
+    0.5;
+}
+
+
+
+
